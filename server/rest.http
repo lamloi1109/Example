@@ -1,0 +1,13 @@
+
+###
+POST http://localhost:3333/v1/users/
+Content-Type: application/json
+{
+    "username":"dsadasd",
+    "email":"dasdsadsa@gmail.com",
+    "password":"dsadsadas"
+}
+
+POST http://localhost:3000/refesh-token
+
+POST http://localhost:3000/logout
